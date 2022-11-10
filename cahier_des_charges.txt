@@ -1,0 +1,70 @@
+WEB_SERVICES_BENRABAH_SAMY_V1
+
+Objectifs de l'application: Création d'une Api de traduction 
+
+Choix des technologies :
+
+- API de traduction : DeepL Traducteur
+
+        -> Accès à l'API REST de DeepL gratuitement
+
+        -> Limite de caractères : 500 000/mois
+
+        -> Accès à toutes les fonctionnalités
+
+        -> Forfait Pro accessible à tout moment
+
+- Architecture API : RESTful
+
+        -> Une architecture client-serveur composée de clients, de serveurs et de ressources
+        
+        -> Des communications client-serveur stateless, ce qui signifie que le contenu du client n'est jamais stocké sur le serveur entre les requêtes ; les informations sur l'état de la session sont stockées sur le client
+        
+        -> Des données qui peuvent être mises en mémoire cache pour éviter certaines interactions entre le client et le serveur
+        
+        -> Un système à couches où des couches hiérarchiques peuvent assurer la médiation dans les interactions entre le client et le serveur
+
+        -> Du code à la demande qui permet au serveur d'étendre la fonctionnalité d'un client en transférant le code exécutable (recommandation facultative, car elle réduit la visibilité)
+
+- Langage de programmation côté serveur : NodeJS => ExpressJs
+    
+        -> Express JS est un framework NodeJS conçue pour simplifier la gestion de serveurs, routes et middlewares 
+
+        -> Conçu dans le but de créer des API
+
+        -> Language Javascript facile à utiliser , courbe s'apprentisage courte pour les développeurs Front-End
+
+        -> Rapide , Haut niveau de scalabilité 
+
+        -> Economique (open-source) , recrutement de Développeur Javascript uniquement
+
+        -> Asynchrone garantie au niveau de la continuité de process 
+
+        -> Reconnu et utilisé par de grandes entreprises ( Netflix, IBM, ebay, Uber...)
+
+- Gestion Versionning API  -> GitHub
+
+
+    ->  Gestion de version des applications
+
+    -> TeamWorker
+
+
+- Environement de travail via conteuneurisation : Docker
+
+    -> Flexible, toute application peut être transformée en conteneur
+
+    -> LégerContrairement à la virtualisation classique, Docker exploite et partage le kernel du système d’exploitation de l’hôte, ce qui le rend très efficace en terme d’utilisation des ressources du système
+
+    -> Portable, il est possible de créer, déployer et démarrer des conteneurs sur son ordinateur, celui de ses clients ou un serveur distant
+
+    -> Auto-suffisant, l’installation et la désinstallation de conteneurs ne dépend pas des autres conteneurs installés. Ce qui permet de mettre à jour ou remplacer un conteneur sans modifier les autres
+
+    -> Scalable, dupliquer un container est extrêmement simple, ce qui permet de réaliser de la scalabilité horizontale aisément
+
+    -> Sécurisé, par défaut, Docker crée des conteneurs en appliquant des règles de sécurité strictes et isole les processus
+
+
+
+- Hebergement API : Heroku
+
