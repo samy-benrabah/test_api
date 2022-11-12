@@ -14,6 +14,14 @@ Choix des technologies :
 
         -> Forfait Pro accessible à tout moment
 
+- Documentation API : SwaggerUI
+
+        -> La génération automatique de la documentation à partir du code
+
+        -> Tout changement dans le code met à jour automatiquement la documentation; les deux sont donc étroitement liés
+        
+        -> Gain de temps et donc de qualité. Le développeur n’a plus besoin de s’attarder sur la documentation, il a donc plus de temps à consacrer au développement de ses API.
+
 - Architecture API : RESTful
 
         -> Une architecture client-serveur composée de clients, de serveurs et de ressources
@@ -25,6 +33,7 @@ Choix des technologies :
         -> Un système à couches où des couches hiérarchiques peuvent assurer la médiation dans les interactions entre le client et le serveur
 
         -> Du code à la demande qui permet au serveur d'étendre la fonctionnalité d'un client en transférant le code exécutable (recommandation facultative, car elle réduit la visibilité)
+
 
 - Langage de programmation côté serveur : NodeJS => ExpressJs
     
@@ -42,12 +51,14 @@ Choix des technologies :
 
         -> Reconnu et utilisé par de grandes entreprises ( Netflix, IBM, ebay, Uber...)
 
-- Gestion Versionning API  -> GitHub
 
+- Gestion Versionning API  -> GitHub
 
     ->  Gestion de version des applications
 
     -> TeamWorker
+
+    -> Méthode de travail flexible
 
 
 - Environement de travail via conteuneurisation : Docker
